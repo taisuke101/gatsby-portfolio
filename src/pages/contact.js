@@ -6,7 +6,8 @@ const contact = () => {
   return <Layout>
     <section className="contact-page">
       <article className="contact-form">
-        <h3>get in touch</h3>
+        <h3>お問い合わせ</h3>
+        <h4>質問、お問い合わせなどお気軽にどうぞ！</h4>
         <form action="https://formspree.io/moqknbne" method="POST">
           <div className="form-group">
             <input 
