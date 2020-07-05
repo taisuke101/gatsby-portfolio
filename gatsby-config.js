@@ -51,5 +51,18 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Taisuke Portfolio Site`,
+        short_name: `TPS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#2c8dba`,
+        display: `standalone`,
+        icon: `src/assets/favicon.png`
+      }
+    },
+    `gatsby-plugin-offline`
   ],
 }
